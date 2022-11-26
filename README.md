@@ -27,3 +27,6 @@ kafka-topics --alter --bootstrap-server localhost:9092 --topic ECOMMERCE_NEW_ORD
 
 Ver partições
 kafka-topics --bootstrap-server localhost:9092 --describe
+
+Lista Groups e partições
+kafka-consumer-groups --all-groups --bootstrap-server localhost:9092 --describe
